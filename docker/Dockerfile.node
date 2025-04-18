@@ -1,0 +1,16 @@
+FROM node:18-slim
+
+WORKDIR /app
+
+# Create a non-root user
+RUN useradd -m -u 2000 appuser && \
+    chown -R appuser:appuser /app
+
+# Switch to non-root user
+USER appuser
+
+# Create a directory for the code
+RUN mkdir -p /app/code
+
+# Set the working directory
+WORKDIR /app/code 
