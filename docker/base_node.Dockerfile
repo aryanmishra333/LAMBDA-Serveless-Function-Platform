@@ -1,4 +1,4 @@
-FROM node:18-slim
+FROM python:3.12-slim
 WORKDIR /app
-COPY code.js /app/code.js
-CMD ["node", "/app/code.js"]
+COPY docker/code.py /app/code.py
+CMD ["python3", "/app/code.py"]
