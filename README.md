@@ -17,7 +17,7 @@ A serverless function platform that allows you to run Python and Node.js code in
 - Docker
 - Node.js 18+ (for Node.js functions)
 
-## 🛠️ Setup Instructions
+## Setup Instructions
 
 1. Clone the Repository
 ```bash
@@ -49,7 +49,7 @@ streamlit run frontend/app.py
 - Frontend: http://localhost:8501
 - API Docs: http://localhost:8000/docs
 
-## 🧪 Supported Languages
+## Supported Languages
 - Python 3
 - JavaScript (Node.js)
 
