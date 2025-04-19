@@ -22,7 +22,6 @@ A serverless function platform that allows you to run Python and Node.js code in
 1. Clone the Repository
 ```bash
 git clone https://github.com/aryanmishra333/PES2UG22CS100_PES2UG22CS103_PES2UG22CS110_PES2UG22CS117_LAMBDA-Serverless_Function.git
-cd lambda-platform
 ```
 
 2. Create a Virtual Environment
