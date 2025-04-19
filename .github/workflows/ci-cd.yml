@@ -27,7 +27,11 @@ jobs:
 
       - name: Run Python Unit Tests
         run: |
+<<<<<<< HEAD
           PYTHONPATH=$PYTHONPATH:. pytest backend/tests/
+=======
+          pytest backend/tests/
+>>>>>>> 68ed7bf8523943b2253fee7e15f3ea1123987873
 
       - name: Run JavaScript Tests (if any)
         run: |
@@ -45,4 +49,8 @@ jobs:
       - name: Check Code Formatting
         run: |
           pip install black
+<<<<<<< HEAD
           black --check backend/
+=======
+          black --check backend/
+>>>>>>> 68ed7bf8523943b2253fee7e15f3ea1123987873
