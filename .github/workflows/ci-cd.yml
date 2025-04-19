@@ -30,11 +30,11 @@ jobs:
 
       - name: Build Python Base Image
         run: |
-          docker build -t lambda_base_python -f backend/docker/python.Dockerfile .
+          docker build -t lambda_base_python -f docker/base_python.Dockerfile .
 
       - name: Build Node Base Image
         run: |
-          docker build -t lambda_base_node -f backend/docker/node.Dockerfile .
+          docker build -t lambda_base_node -f docker/base_node.Dockerfile .
 
       - name: Run Python Unit Tests
         run: |
