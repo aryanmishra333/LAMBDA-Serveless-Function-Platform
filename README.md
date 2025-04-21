@@ -1,4 +1,4 @@
-# Lambda Serverless Function
+![WhatsApp Image 2025-04-21 at 08 50 20_dc455af8](https://github.com/user-attachments/assets/b0cb3ba6-ea53-4306-b74c-07a897264199)# Lambda Serverless Function
 
 A serverless function platform that allows you to run Python and Node.js code in isolated containers, similar to AWS Lambda.
 
@@ -77,3 +77,7 @@ lambda-serverless-function/
 ├── frontend/          # Frontend application (if any)
 └── requirements.txt   # Python dependencies
 ```
+
+Architecture Diagram:
+![WhatsApp Image 2025-04-21 at 08 50 20_dc455af8](https://github.com/user-attachments/assets/ea5b8202-4f89-4624-a408-8b6862771702)
+
