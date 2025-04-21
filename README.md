@@ -1,5 +1,3 @@
-![WhatsApp Image 2025-04-21 at 08 50 20_dc455af8](https://github.com/user-attachments/assets/b0cb3ba6-ea53-4306-b74c-07a897264199)# Lambda Serverless Function
-
 A serverless function platform that allows you to run Python and Node.js code in isolated containers, similar to AWS Lambda.
 
 ## Features
